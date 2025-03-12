@@ -12,8 +12,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.PrintWriter;
-import java.io.StringWriter;
 
 /**
  * 通用异常处理,
@@ -27,11 +25,7 @@ public abstract class UniversalHandlerExceptionResolver implements HandlerExcept
     private static final Logger log = LoggerFactory.getLogger(UniversalHandlerExceptionResolver.class);
 
     public static String getStackTrace(Throwable t) {
-        StringWriter sw = new StringWriter();
-        PrintWriter pw = new PrintWriter(sw);
-        t.printStackTrace(pw);
-        pw.close();
-        return sw.toString();
+        return UniversalExceptionHandler.getStackTrace(t);
     }
 
     /**
