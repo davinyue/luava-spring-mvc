@@ -1,4 +1,4 @@
-package org.linuxprobe.luava.springmvc.exception;
+package org.rdlinux.luava.springmvc.exception;
 
 import org.rdlinux.luava.servlet.HttpServletUtils;
 import org.slf4j.Logger;

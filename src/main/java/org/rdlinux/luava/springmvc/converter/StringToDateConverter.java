@@ -1,4 +1,4 @@
-package org.linuxprobe.luava.springmvc.converter;
+package org.rdlinux.luava.springmvc.converter;
 
 import org.springframework.core.convert.converter.Converter;
 

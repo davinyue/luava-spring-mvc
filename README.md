@@ -2,8 +2,8 @@
 
 ```
 <dependency>
-  <groupId>org.linuxprobe</groupId>
+  <groupId>org.rdlinux</groupId>
   <artifactId>luava-spring-mvc</artifactId>
-  <version>0.0.8</version>
+  <version>0.1.1</version>
 </dependency>
 ```
